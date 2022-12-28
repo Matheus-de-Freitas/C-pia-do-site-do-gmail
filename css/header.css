@@ -1,16 +1,16 @@
 header {
-    display: flex;
+    display:flex;
     line-height: 1.825rem;
     font-size: 1.825rem;
     margin-top: 1rem;
-    justify-content: center;
+    justify-content: space-between;
     box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
     padding-bottom: 1rem;
+    width: 100%;
 }
 
 header p{
     font-size: 1.375rem;
-    margin-right: 50rem;
     margin-top: 0.5rem;
     color:var(--grayish-gray)
 
@@ -31,6 +31,20 @@ header a {
 
 header a:hover{
     cursor:pointer;
+}
+
+.logo {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    padding-left: 4.5rem;
+}
+
+.botoes{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    padding-right: 4.5rem;
 }
 
 .trabalho a{

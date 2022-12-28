@@ -4,13 +4,11 @@
     justify-content: center;
     align-items: center;
     margin: 0 0 0 7rem;
+    gap: 7rem;
 }
 
 .introduction img{
-    max-height: 40.625rem;
-    max-width: 50rem;
-    margin-left: 7rem;
-
+    width: 50rem;
 }
 
 .introduction h2{
@@ -59,6 +57,7 @@
     justify-content: center;
     align-items: center;
     margin: 10rem 0 0 7rem;
+    gap: 13rem;
 }
 
 .security h2{
@@ -83,34 +82,28 @@
     margin-left: 2rem;
     margin-bottom: 2rem;
     padding-top: 1rem;
-    padding-right: 10rem;
 }
 
-.img img{
-    max-width: 53.75rem;
-    max-height: 40.625rem;
+.security img{
+    width: 30rem;
     margin-top: 10rem;
-    margin-right: -7rem;
+    margin-right: 7rem;
 }
 
 .productivity{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-left: -3rem;
-    margin-top: -4rem;
+    align-items: center;
+    margin: 10rem 0.5rem 12rem 7rem;
+    gap: 3rem;
 }
 
 .productivity h2{
     font-size: 2.625rem;
-    margin-left: 10rem;
     margin-bottom: 4rem;
-    padding-right: 8rem;
-
 }
 
 .productivity h3 {
-    margin-left: 12rem;
     margin-bottom: 1rem;
     font-size: 1.375rem;
 }
@@ -118,30 +111,28 @@
 .productivity h3:hover{
     color:var(--blue);
     cursor:pointer;
-
 }
 
 .productivity p{
-    margin-left: 12rem;
     margin-bottom: 2rem;
     padding-right: 8rem;
     font-size: 1rem;
 }
 
 .productivity img{
-    height: 53.75rem;
-    width: 53.625rem;
-    margin-bottom: 12rem;
+    width: 50rem;
 }
 
 .functionalities{
-    height: 31.5rem;
     display: flex;
-    justify-items: center;
     background: var(--light-grayish-black);
-    padding-inline: 8rem;
-    gap: 10rem;
-    margin-top: -5rem;
+    gap: 7rem;
+    padding: 0 10rem 4rem 10rem;
+}
+
+.functionalities div{
+    width: 100%;
+    margin-top: 7rem;
 }
 
 .functionalities h3 {
@@ -149,50 +140,13 @@
     margin-bottom: 1rem;
 }
 
-
-.compatibility{
-    height: 19.375rem;
-    width: 17.125rem;
-    margin-top: 9.6875rem;
-    margin-left: 3rem;
-    margin-bottom: 4rem;
-}
-
-.compatibility img {
+.functionalities img{
     border-radius: 50%;
     width: 3rem;
-    margin-top: -2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.productivity_offline{
-    height: 31.5rem;
-    width: 15.375rem;
-    margin-top: 9.6875rem;
-}
-
-.productivity_offline img {
-    border-radius: 50%;
-    width: 3rem;
-    margin-top: -4rem;
-    margin-bottom: 1rem;
-}
-
-.resources{
-    height: 19.375rem;
-    width: 15.875rem;
-    margin-top: 9.6875rem;
-}
-
-.resources img {
-    border-radius: 50%;
-    width: 3rem;
-    margin-top: -6rem;
     margin-bottom: 1rem;
 }
 
 .google_workspace{
-
     margin-top: 9.6875rem;
     text-align: center;
 }
@@ -255,19 +209,17 @@
     justify-content: center;
     align-items: center;
     height: 31.5rem;
-    width: 95rem;
     padding-inline: 8rem;
     margin-top: 9.6875rem;
     background: var(--light-grayish-black);
 }
 
 .help {
-    height: 13.5rem;
     width: 25rem;
     background: var(--white);
     border: 1px solid var(--grayish-black);
     border-radius: 5px;
-
+    padding-bottom: 2rem;
 }
 
 .help button {
@@ -280,6 +232,7 @@
     margin: 1rem 0 0 1.5rem;
     padding: 1rem;
     padding-inline: 1.25rem;
+
 }
 
 .help button:hover {
@@ -298,10 +251,6 @@
 .answers h2{
     margin-bottom: 3rem;
     padding-right: 38rem;
-}
-
-.questions {
-    margin-left: -27rem;
 }
 
 .questions p:hover {
